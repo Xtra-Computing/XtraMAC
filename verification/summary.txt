@@ -1,0 +1,63 @@
+==== Verification Summary ====
+Total: 51    PASS: 51    FAIL: 0
+0
+
+  1lane  total=2   pass=2   fail=0  
+  2lane  total=27  pass=27  fail=0  
+  4lane  total=22  pass=22  fail=0  
+
+=== FAIL details ===
+  CONFIG                       LANE   EXPECTED     MEASURED     NOTE
+
+=== PASS list ===
+  bf16_bf16_bf16               2lane  meas=4/5/6
+  bf16_bf16_fp32               2lane  meas=4/5/6
+  fp16_fp16_fp16               1lane  meas=4/5/6
+  fp16_fp16_fp32               1lane  meas=4/5/6
+  fp4e1m2_bf16_bf16            2lane  meas=4/5/6
+  fp4e1m2_bf16_fp32            2lane  meas=4/5/6
+  fp4e1m2_fp16_fp16            2lane  meas=4/5/6
+  fp4e1m2_fp16_fp32            2lane  meas=4/5/6
+  fp4e1m2_fp8e4m3_fp16         4lane  meas=4/5/6
+  fp4e1m2_fp8e4m3_fp8          4lane  meas=4/5/6
+  fp4e1m2_fp8e5m2_fp16         4lane  meas=4/5/6
+  fp4e1m2_fp8e5m2_fp8          4lane  meas=4/5/6
+  fp4e2m1_bf16_bf16            2lane  meas=4/5/6
+  fp4e2m1_bf16_fp32            2lane  meas=4/5/6
+  fp4e2m1_fp16_fp16            2lane  meas=4/5/6
+  fp4e2m1_fp16_fp32            2lane  meas=4/5/6
+  fp4e2m1_fp8e4m3_fp16         4lane  meas=4/5/6
+  fp4e2m1_fp8e4m3_fp8          4lane  meas=4/5/6
+  fp4e2m1_fp8e5m2_fp16         4lane  meas=4/5/6
+  fp4e2m1_fp8e5m2_fp8          4lane  meas=4/5/6
+  fp4e3m0_bf16_bf16            2lane  meas=4/5/6
+  fp4e3m0_bf16_fp32            2lane  meas=4/5/6
+  fp4e3m0_fp16_fp16            2lane  meas=4/5/6
+  fp4e3m0_fp16_fp32            2lane  meas=4/5/6
+  fp4e3m0_fp8e4m3_fp16         4lane  meas=4/5/6
+  fp4e3m0_fp8e4m3_fp8          4lane  meas=4/5/6
+  fp4e3m0_fp8e5m2_fp16         4lane  meas=4/5/6
+  fp4e3m0_fp8e5m2_fp8          4lane  meas=4/5/6
+  fp8e4m3_bf16_bf16            2lane  meas=4/5/6
+  fp8e4m3_bf16_fp32            2lane  meas=4/5/6
+  fp8e4m3_fp16_fp16            2lane  meas=4/5/6
+  fp8e4m3_fp16_fp32            2lane  meas=4/5/6
+  fp8e4m3_fp8e4m3_bf16         4lane  meas=4/5/6
+  fp8e4m3_fp8e4m3_fp16         4lane  meas=4/5/6
+  fp8e4m3_fp8e4m3_fp8          4lane  meas=4/5/6
+  fp8e5m2_bf16_bf16            2lane  meas=4/5/6
+  fp8e5m2_bf16_fp32            2lane  meas=4/5/6
+  fp8e5m2_fp16_fp16            2lane  meas=4/5/6
+  fp8e5m2_fp16_fp32            2lane  meas=4/5/6
+  fp8e5m2_fp8e5m2_bf16         4lane  meas=4/5/6
+  fp8e5m2_fp8e5m2_fp16         4lane  meas=4/5/6
+  fp8e5m2_fp8e5m2_fp8          4lane  meas=4/5/6
+  int4_fp8e4m3_fp16            4lane  meas=4/5/6
+  int4_fp8e4m3_fp8             4lane  meas=4/5/6
+  int4_fp8e5m2_fp16            4lane  meas=4/5/6
+  int4_fp8e5m2_fp8             4lane  meas=4/5/6
+  int8_int8_int32              2lane  meas=3/3/4
+  int_bf16_bf16                2lane  meas=4/5/6
+  int_bf16_fp32                2lane  meas=4/5/6
+  int_fp16_fp16                2lane  meas=4/5/6
+  int_fp16_fp32                2lane  meas=4/5/6

@@ -1,0 +1,13 @@
+design,variant,top,LUT_post_synth,FF,DSP,WNS_2222ps,Fmax_MHz
+a_bf16_int4_shared,4c,bf16_int4_shared_mac_4c,434,302,1,-1.156,296.03
+b_int8_bf16_dual,4c,int8_bf16_mac_4c,569,513,1,-1.270,286.37
+c_fp8_bf16_dual,4c,fp8_bf16_dual_mac_4c,948,622,1,-1.435,273.45
+d_bf16_fp4_dual,4c,bf16_fp4_dual_mac_4c,395,274,1,-1.529,266.60
+a_bf16_int4_shared,5c,bf16_int4_shared_mac_5c,472,334,1,-0.328,392.16
+b_int8_bf16_dual,5c,int8_bf16_mac_5c,628,672,1,-0.523,364.30
+c_fp8_bf16_dual,5c,fp8_bf16_dual_mac_5c,1100,742,1,-0.456,373.41
+d_bf16_fp4_dual,5c,bf16_fp4_dual_mac_5c,464,334,1,-0.265,402.09
+a_bf16_int4_shared,6c,bf16_int4_shared_mac_6c,463,398,1,0.046,459.56
+b_int8_bf16_dual,6c,int8_bf16_mac_6c,693,670,1,-0.283,399.20
+c_fp8_bf16_dual,6c,fp8_bf16_dual_mac_6c,995,866,1,-0.447,374.67
+d_bf16_fp4_dual,6c,bf16_fp4_dual_mac_6c,455,398,1,0.005,451.06

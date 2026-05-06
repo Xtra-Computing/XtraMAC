@@ -1,0 +1,13 @@
+# status|lane|cfg|variant|top|LUT|FF|DSP|WNS_ns|Fmax_MHz
+OK|1lane|fp16_fp16_fp16|4c|fp16_fp16_fp16_mac_4c|215|150|1|-1.140|318.47
+OK|1lane|fp16_fp16_fp16|5c|fp16_fp16_fp16_mac_5c|232|180|1|-0.210|452.49
+OK|1lane|fp16_fp16_fp16|6c|fp16_fp16_fp16_mac_6c|220|212|1|0.002|500.50
+OK|1lane|fp16_fp16_fp32|4c|fp16_fp16_fp32_mac_4c|542|184|1|-1.824|261.51
+OK|1lane|fp16_fp16_fp32|5c|fp16_fp16_fp32_mac_5c|542|216|1|-1.622|276.09
+OK|1lane|fp16_fp16_fp32|6c|fp16_fp16_fp32_mac_6c|539|277|1|-1.621|276.17
+OK|2lane|bf16_bf16_bf16|4c|bf16_bf16_bf16_mac_4c|442|258|1|-3.220|191.57
+OK|2lane|bf16_bf16_bf16|5c|bf16_bf16_bf16_mac_5c|459|334|1|-0.445|409.00
+OK|2lane|bf16_bf16_bf16|6c|bf16_bf16_bf16_mac_6c|450|398|1|-0.019|495.29
+OK|2lane|bf16_bf16_fp32|4c|bf16_bf16_fp32_mac_4c|1119|396|1|-2.890|204.50
+OK|2lane|bf16_bf16_fp32|5c|bf16_bf16_fp32_mac_5c|1119|460|1|-2.730|211.42
+OK|2lane|bf16_bf16_fp32|6c|bf16_bf16_fp32_mac_6c|1081|570|1|-1.780|264.55
