@@ -228,8 +228,8 @@ module fp32_add #(
 
   // -------- Stage A1: align with GRS and add/sub (combinational) --------
   // 27-bit lanes: {carry, 24-bit mant, G,R,S} = 1 + 24 + 2 = 27
-  wire [5:0]  shamt0      = (Ebig > Esml) ? (Ebig - Esml) : 6'd0;
-  wire [5:0]  shamt       = (shamt0 > 6'd27) ? 6'd27 : shamt0;
+  wire [8:0]  shamt0      = (Ebig > Esml) ? (Ebig - Esml) : 9'd0;
+  wire [5:0]  shamt       = (shamt0 > 9'd27) ? 6'd27 : shamt0[5:0];
 
   wire [26:0] Big_ext     = {1'b0, Mbig, 3'b000};
   wire [26:0] Sml_ext_pre = {1'b0, Msml, 3'b000};
@@ -270,7 +270,7 @@ module fp32_add #(
 
   // -------- Stage A2: normalize/round/pack --------
   wire        add_carry = ~r_diff_sign & r_sum28[27];
-  wire [27:0] sumC_wide = add_carry ? (r_sum28 >> 1) : r_sum28;
+  wire [27:0] sumC_wide = add_carry ? {1'b0, r_sum28[27:2], (r_sum28[1] | r_sum28[0])} : r_sum28;
   wire [26:0] sumC      = sumC_wide[26:0];
   wire [8:0]  En        = add_carry ? (r_Ebig + 9'd1) : r_Ebig;
 
