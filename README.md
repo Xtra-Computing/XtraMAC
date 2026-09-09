@@ -2,6 +2,8 @@
 
 **XtraMAC: An Efficient MAC Architecture for Mixed-Precision LLM Inference on FPGA.**
 
+Published at **ISCA 2026**. [Paper](https://doi.org/10.1109/ISCA66397.2026.00177) · [Citation](#12-citation) · [Contact](#13-contact).
+
 A self-contained Verilog library of **49 fixed-mode MAC configurations** plus
 **4 runtime-reconfigurable dual-mode MACs**, targeting Xilinx UltraScale+ FPGAs
 (e.g. Alveo U55C). Each design:
@@ -439,3 +441,31 @@ which vivado          # should print a path
 
 The repo's scripts auto-detect their own location, so you can clone or extract
 the folder anywhere on disk and run from inside it.
+
+---
+
+## 12. Citation
+
+If you use XtraMAC in your research, please cite our paper:
+
+```bibtex
+@INPROCEEDINGS{xtramac,
+author={Yu, Feng and Tan, Hongshi and Chen, Yao and Wong, Weng-Fai and He, Bingsheng},
+booktitle={2026 ACM/IEEE 53rd Annual International Symposium on Computer Architecture (ISCA)},
+title={XtraMAC: An Efficient MAC Architecture for Mixed-Precision LLM Inference on FPGA},
+year={2026},
+volume={},
+number={},
+pages={2536-2549},
+keywords={Digital signal processing;Media Access Control;Design methodology;Field programmable gate
+arrays;Modeling;Printing;Runtime;Timing;Computer architecture;Equations;MAC architecture;mixed-precision arithmetic;runtime datatype
+switching;DSP packing;FPGA},
+doi={10.1109/ISCA66397.2026.00177}
+}
+```
+
+---
+
+## 13. Contact
+
+If you have any questions, please contact Feng Yu at [dcsyufeng@gmail.com](mailto:dcsyufeng@gmail.com).
